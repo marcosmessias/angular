@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&family=Nunito:wght@400;700&display=swap");
+
+$family-sans-sarif: "Nunito Sans", sans-serif !important;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: $family-sans-sarif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: rgba(0, 82, 204);
+  height: 100vh;
+}
